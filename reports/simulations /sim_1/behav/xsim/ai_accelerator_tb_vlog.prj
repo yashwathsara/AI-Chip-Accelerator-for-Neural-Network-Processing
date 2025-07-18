@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/activation_function.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/ai_accelerator_top.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/axi_dma_bridge.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/clock_gating_unit.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/clock_reset_manager.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/convolution_engine.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/dataflow_controller.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/fc_layer.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/image_preprocessing.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/interrupt_controller.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/performance_monitor.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/pipeline_controller.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/pooling_unit.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/rtl/weight_loader.sv" \
+"../../../../../Downloads/AI_ACCELERATOR--main/tb sv/tb_ai_accelerator_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

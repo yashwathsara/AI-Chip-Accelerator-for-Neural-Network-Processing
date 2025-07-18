@@ -1,0 +1,13 @@
+*.backup.jou
+*.backup.log
+*.pb
+*.log
+*.jou
+.cxl/
+.ai_top.tcl.swo
+# Ignore huge simulation files and schematics
+reports/simulations/
+schematic/schematic1.sch
+schematic/schematic1.pdf
+*.vdb
+*.vhd

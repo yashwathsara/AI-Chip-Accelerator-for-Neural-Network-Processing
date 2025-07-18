@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ai_accelerator_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_activation_function_sv_2971209719 " />
+            <top_module name="ai_accelerator_tb" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="uvm_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,763,044,995 ps"></ZoomStartTime>
+      <ZoomEndTime time="2,763,045,001 ps"></ZoomEndTime>
+      <Cursor1Time time="2,763,045,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="136" />
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axis_input_tvalid">
+      <obj_property name="ElementShortName">s_axis_input_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_input_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axis_input_tready">
+      <obj_property name="ElementShortName">s_axis_input_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_input_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axis_input_tdata">
+      <obj_property name="ElementShortName">s_axis_input_tdata[23:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_input_tdata[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axis_input_tlast">
+      <obj_property name="ElementShortName">s_axis_input_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_input_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/m_axis_output_tvalid">
+      <obj_property name="ElementShortName">m_axis_output_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/m_axis_output_tready">
+      <obj_property name="ElementShortName">m_axis_output_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/m_axis_output_tdata">
+      <obj_property name="ElementShortName">m_axis_output_tdata[23:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tdata[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/m_axis_output_tlast">
+      <obj_property name="ElementShortName">m_axis_output_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_output_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_awvalid">
+      <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_awready">
+      <obj_property name="ElementShortName">s_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_awaddr">
+      <obj_property name="ElementShortName">s_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_wvalid">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_wready">
+      <obj_property name="ElementShortName">s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_wdata">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_wstrb">
+      <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_bvalid">
+      <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_bready">
+      <obj_property name="ElementShortName">s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_bresp">
+      <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_arvalid">
+      <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_arready">
+      <obj_property name="ElementShortName">s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_araddr">
+      <obj_property name="ElementShortName">s_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_rvalid">
+      <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_rready">
+      <obj_property name="ElementShortName">s_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_rdata">
+      <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_rresp">
+      <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_kernel_tvalid">
+      <obj_property name="ElementShortName">s_kernel_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_kernel_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_kernel_tready">
+      <obj_property name="ElementShortName">s_kernel_tready</obj_property>
+      <obj_property name="ObjectShortName">s_kernel_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_kernel_tdata">
+      <obj_property name="ElementShortName">s_kernel_tdata[599:0]</obj_property>
+      <obj_property name="ObjectShortName">s_kernel_tdata[599:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/m_axi_arvalid">
+      <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/m_axi_arready">
+      <obj_property name="ElementShortName">m_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/m_axi_araddr">
+      <obj_property name="ElementShortName">m_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/m_axi_arlen">
+      <obj_property name="ElementShortName">m_axi_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/m_axi_rvalid">
+      <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/m_axi_rready">
+      <obj_property name="ElementShortName">m_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/m_axi_rdata">
+      <obj_property name="ElementShortName">m_axi_rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/m_axi_awvalid">
+      <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/m_axi_awready">
+      <obj_property name="ElementShortName">m_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/m_axi_awaddr">
+      <obj_property name="ElementShortName">m_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/m_axi_awlen">
+      <obj_property name="ElementShortName">m_axi_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/m_axi_wvalid">
+      <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/m_axi_wready">
+      <obj_property name="ElementShortName">m_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/m_axi_wdata">
+      <obj_property name="ElementShortName">m_axi_wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/axi_valid_out">
+      <obj_property name="ElementShortName">axi_valid_out</obj_property>
+      <obj_property name="ObjectShortName">axi_valid_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/processed_data">
+      <obj_property name="ElementShortName">processed_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">processed_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/valid_out">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/done">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/debug_out">
+      <obj_property name="ElementShortName">debug_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/error">
+      <obj_property name="ElementShortName">error</obj_property>
+      <obj_property name="ObjectShortName">error</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/sync_reset">
+      <obj_property name="ElementShortName">sync_reset</obj_property>
+      <obj_property name="ObjectShortName">sync_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/clk_conv">
+      <obj_property name="ElementShortName">clk_conv</obj_property>
+      <obj_property name="ObjectShortName">clk_conv</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/clk_pool">
+      <obj_property name="ElementShortName">clk_pool</obj_property>
+      <obj_property name="ObjectShortName">clk_pool</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/clk_fc">
+      <obj_property name="ElementShortName">clk_fc</obj_property>
+      <obj_property name="ObjectShortName">clk_fc</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/reg_file">
+      <obj_property name="ElementShortName">reg_file[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[0:15][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/kernel_matrix">
+      <obj_property name="ElementShortName">kernel_matrix[2:0][24:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_matrix[2:0][24:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/preproc_data">
+      <obj_property name="ElementShortName">preproc_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">preproc_data[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/preproc_valid">
+      <obj_property name="ElementShortName">preproc_valid</obj_property>
+      <obj_property name="ObjectShortName">preproc_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/preproc_tready">
+      <obj_property name="ElementShortName">preproc_tready</obj_property>
+      <obj_property name="ObjectShortName">preproc_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/conv_tready">
+      <obj_property name="ElementShortName">conv_tready</obj_property>
+      <obj_property name="ObjectShortName">conv_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/conv_ready_internal">
+      <obj_property name="ElementShortName">conv_ready_internal</obj_property>
+      <obj_property name="ObjectShortName">conv_ready_internal</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/conv_input">
+      <obj_property name="ElementShortName">conv_input[2:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_input[2:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/conv_out">
+      <obj_property name="ElementShortName">conv_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/activation_out">
+      <obj_property name="ElementShortName">activation_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">activation_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/pooled_out">
+      <obj_property name="ElementShortName">pooled_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pooled_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/conv_valid">
+      <obj_property name="ElementShortName">conv_valid</obj_property>
+      <obj_property name="ObjectShortName">conv_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/act_valid">
+      <obj_property name="ElementShortName">act_valid</obj_property>
+      <obj_property name="ObjectShortName">act_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/pool_valid">
+      <obj_property name="ElementShortName">pool_valid</obj_property>
+      <obj_property name="ObjectShortName">pool_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/fc_valid">
+      <obj_property name="ElementShortName">fc_valid</obj_property>
+      <obj_property name="ObjectShortName">fc_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/start_process">
+      <obj_property name="ElementShortName">start_process</obj_property>
+      <obj_property name="ObjectShortName">start_process</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/process_done">
+      <obj_property name="ElementShortName">process_done</obj_property>
+      <obj_property name="ObjectShortName">process_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/load_data">
+      <obj_property name="ElementShortName">load_data</obj_property>
+      <obj_property name="ObjectShortName">load_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/compute_enable">
+      <obj_property name="ElementShortName">compute_enable</obj_property>
+      <obj_property name="ObjectShortName">compute_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/store_result">
+      <obj_property name="ElementShortName">store_result</obj_property>
+      <obj_property name="ObjectShortName">store_result</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/busy">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/pipeline_error">
+      <obj_property name="ElementShortName">pipeline_error</obj_property>
+      <obj_property name="ObjectShortName">pipeline_error</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/weight_error">
+      <obj_property name="ElementShortName">weight_error</obj_property>
+      <obj_property name="ObjectShortName">weight_error</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/mem_timeout_error">
+      <obj_property name="ElementShortName">mem_timeout_error</obj_property>
+      <obj_property name="ObjectShortName">mem_timeout_error</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/irq_in">
+      <obj_property name="ElementShortName">irq_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">irq_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/irq">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/irq_vector">
+      <obj_property name="ElementShortName">irq_vector[2:0]</obj_property>
+      <obj_property name="ObjectShortName">irq_vector[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/weight_mem">
+      <obj_property name="ElementShortName">weight_mem[0:8255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_mem[0:8255][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/weight_data">
+      <obj_property name="ElementShortName">weight_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/weight_tvalid">
+      <obj_property name="ElementShortName">weight_tvalid</obj_property>
+      <obj_property name="ObjectShortName">weight_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/weight_tready">
+      <obj_property name="ElementShortName">weight_tready</obj_property>
+      <obj_property name="ObjectShortName">weight_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/weights_loaded">
+      <obj_property name="ElementShortName">weights_loaded[15:0]</obj_property>
+      <obj_property name="ObjectShortName">weights_loaded[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/total_cycles">
+      <obj_property name="ElementShortName">total_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/busy_cycles">
+      <obj_property name="ElementShortName">busy_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">busy_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/idle_cycles">
+      <obj_property name="ElementShortName">idle_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idle_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/utilization">
+      <obj_property name="ElementShortName">utilization[31:0]</obj_property>
+      <obj_property name="ObjectShortName">utilization[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/input_data_idx">
+      <obj_property name="ElementShortName">input_data_idx[6:0]</obj_property>
+      <obj_property name="ObjectShortName">input_data_idx[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_awready_reg">
+      <obj_property name="ElementShortName">s_axi_awready_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_wready_reg">
+      <obj_property name="ElementShortName">s_axi_wready_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_bvalid_reg">
+      <obj_property name="ElementShortName">s_axi_bvalid_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid_reg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_bresp_reg">
+      <obj_property name="ElementShortName">s_axi_bresp_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_arready_reg">
+      <obj_property name="ElementShortName">s_axi_arready_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_rvalid_reg">
+      <obj_property name="ElementShortName">s_axi_rvalid_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid_reg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_rdata_reg">
+      <obj_property name="ElementShortName">s_axi_rdata_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_rresp_reg">
+      <obj_property name="ElementShortName">s_axi_rresp_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_awready_irq">
+      <obj_property name="ElementShortName">s_axi_awready_irq</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready_irq</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_wready_irq">
+      <obj_property name="ElementShortName">s_axi_wready_irq</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready_irq</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_bvalid_irq">
+      <obj_property name="ElementShortName">s_axi_bvalid_irq</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid_irq</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_bresp_irq">
+      <obj_property name="ElementShortName">s_axi_bresp_irq[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp_irq[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_arready_irq">
+      <obj_property name="ElementShortName">s_axi_arready_irq</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready_irq</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_rvalid_irq">
+      <obj_property name="ElementShortName">s_axi_rvalid_irq</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid_irq</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_rdata_irq">
+      <obj_property name="ElementShortName">s_axi_rdata_irq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata_irq[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_rresp_irq">
+      <obj_property name="ElementShortName">s_axi_rresp_irq[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp_irq[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_awready_dma">
+      <obj_property name="ElementShortName">s_axi_awready_dma</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready_dma</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_wready_dma">
+      <obj_property name="ElementShortName">s_axi_wready_dma</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready_dma</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_bvalid_dma">
+      <obj_property name="ElementShortName">s_axi_bvalid_dma</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid_dma</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_bresp_dma">
+      <obj_property name="ElementShortName">s_axi_bresp_dma[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp_dma[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_arready_dma">
+      <obj_property name="ElementShortName">s_axi_arready_dma</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready_dma</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/s_axi_rvalid_dma">
+      <obj_property name="ElementShortName">s_axi_rvalid_dma</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid_dma</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_rdata_dma">
+      <obj_property name="ElementShortName">s_axi_rdata_dma[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata_dma[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/s_axi_rresp_dma">
+      <obj_property name="ElementShortName">s_axi_rresp_dma[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp_dma[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/input_data_array">
+      <obj_property name="ElementShortName">input_data_array[0:127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_data_array[0:127][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/weights_array">
+      <obj_property name="ElementShortName">weights_array[0:63][0:127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">weights_array[0:63][0:127][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/bias_array">
+      <obj_property name="ElementShortName">bias_array[0:63][7:0]</obj_property>
+      <obj_property name="ObjectShortName">bias_array[0:63][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/output_data_array">
+      <obj_property name="ElementShortName">output_data_array[0:63][7:0]</obj_property>
+      <obj_property name="ObjectShortName">output_data_array[0:63][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/input_data_flat">
+      <obj_property name="ElementShortName">input_data_flat[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">input_data_flat[1023:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/weights_flat">
+      <obj_property name="ElementShortName">weights_flat[65535:0]</obj_property>
+      <obj_property name="ObjectShortName">weights_flat[65535:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/bias_flat">
+      <obj_property name="ElementShortName">bias_flat[511:0]</obj_property>
+      <obj_property name="ObjectShortName">bias_flat[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/output_data_flat">
+      <obj_property name="ElementShortName">output_data_flat[511:0]</obj_property>
+      <obj_property name="ObjectShortName">output_data_flat[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/weight_cfg_valid">
+      <obj_property name="ElementShortName">weight_cfg_valid</obj_property>
+      <obj_property name="ObjectShortName">weight_cfg_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/weight_cfg_addr">
+      <obj_property name="ElementShortName">weight_cfg_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_cfg_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/weight_cfg_length">
+      <obj_property name="ElementShortName">weight_cfg_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_cfg_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ai_accelerator_tb/dut/weight_tdata">
+      <obj_property name="ElementShortName">weight_tdata</obj_property>
+      <obj_property name="ObjectShortName">weight_tdata</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/DATA_WIDTH">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/INPUT_SIZE">
+      <obj_property name="ElementShortName">INPUT_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INPUT_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/OUTPUT_SIZE">
+      <obj_property name="ElementShortName">OUTPUT_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/OUTPUT_SELECT">
+      <obj_property name="ElementShortName">OUTPUT_SELECT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_SELECT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/IMAGE_SIZE">
+      <obj_property name="ElementShortName">IMAGE_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMAGE_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/ADDR_WIDTH">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ai_accelerator_tb/dut/MAX_WEIGHTS">
+      <obj_property name="ElementShortName">MAX_WEIGHTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_WEIGHTS[31:0]</obj_property>
+   </wvobject>
+</wave_config>

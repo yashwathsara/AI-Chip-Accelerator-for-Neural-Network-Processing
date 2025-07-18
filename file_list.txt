@@ -1,0 +1,670 @@
+Directory: .
+  list_files.py
+  vivado_10486.backup.log
+  ai_top.tcl
+  vivado.jou
+  vivado_11020.backup.log
+  README.md
+  xvlog.pb
+  .ai_top.tcl.swo
+  .gitignore
+  vivado.log
+  file_list.txt
+  vivado_10486.backup.jou
+  vivado_11020.backup.jou
+
+Directory: ./rtl
+  pooling_unit.sv
+  performance_monitor.sv
+  axi_interface.sv
+  image_preprocessing.sv
+  power_debug_hooks.sv
+  axi_dma_bridge.sv
+  clock_reset_manager.sv
+  convolution_engine.sv
+  dataflow_controller.sv
+  ai_accelerator_top.sv
+  weight_loader.sv
+  memory_controller.sv
+  fc_layer.sv
+  pipeline_controller.sv
+  config_registers.sv
+  clock_gating_unit.sv
+  interrupt_controller.sv
+  activation_function.sv
+
+Directory: ./obj_dir
+  Vtb_image_preprocessing_classes.mk
+  Vtb_image_preprocessing.cpp
+  Vtb_image_preprocessing.h
+  Vtb_image_preprocessing.mk
+  Vtb_image_preprocessing__Syms.cpp
+  Vtb_image_preprocessing__Slow.cpp
+  Vtb_image_preprocessing__Syms.h
+
+Directory: ./.vscode
+  tasks.json
+
+Directory: ./reports
+
+Directory: ./reports/synthesis
+  timing_report.txt
+  utilization_report.txt
+  ai_accelerator_top_utilization_synth.rpt
+  timing_report.rpx
+  schematic.sch
+  ultrafast_methodology_1.rpx
+  drc_1.rpx
+  DRC_drc_1.txt
+  schematic.pdf
+  power_power_1.txt
+  ai_accelerator_top.vds
+  methodology_report.txt
+
+Directory: ./reports/implementation
+  place_report_utilization_0.rpt
+  utilization_report.txt
+  route_report_clock_utilization_0.rpt
+  power_1.rpx
+  power_power_1.xpe
+  route_report_route_status_0.rpt
+  schematic.sch
+  route_report_power_0.rpt
+  place_report_io_0.rpt
+  schematic.pdf
+  route_report_timing_summary_0.rpt
+  route_report_bus_skew_0.rpt
+  power_power_1.txt
+  place_report_control_sets_0.rpt
+
+Directory: ./reports/simulations 
+  Screenshot from 2025-07-18 16-49-10.png
+  ai_accelerator_tb_behav.wcfg
+  Screenshot from 2025-07-18 16-49-00.png
+  Screenshot from 2025-07-18 16-48-34.png
+
+Directory: ./reports/simulations /sim_1
+
+Directory: ./reports/simulations /sim_1/synth
+
+Directory: ./reports/simulations /sim_1/synth/func
+
+Directory: ./reports/simulations /sim_1/synth/func/xsim
+  elaborate.sh
+  compile.log
+  ai_accelerator_tb_vlog.prj
+  xsim.ini
+  ai_accelerator_tb_func_synth.vhd
+  xelab.pb
+  compile.sh
+  xvhdl.log
+  elaborate.log
+  xvlog.pb
+  ai_accelerator_tb_vhdl.prj
+  glbl.v
+  xvlog.log
+  xvhdl.pb
+
+Directory: ./reports/simulations /sim_1/synth/func/xsim/xsim.dir
+
+Directory: ./reports/simulations /sim_1/synth/func/xsim/xsim.dir/xil_defaultlib
+  fc_layer.vdb
+  ai_accelerator_if.sdb
+  pooling_unit.vdb
+  ai_accelerator_tb.sdb
+  convolution_engine.vdb
+  clock_gating_unit.vdb
+  performance_monitor.vdb
+  pipeline_controller.vdb
+  image_preprocessing.vdb
+  clock_reset_manager.vdb
+  weight_loader.vdb
+  $unit_tb_ai_accelerator_top_sv.sdb
+  axi_dma_bridge.vdb
+  dataflow_controller.vdb
+  activation_function.vdb
+  xil_defaultlib.rlx
+  ai_accelerator_top.vdb
+  glbl.sdb
+  interrupt_controller.vdb
+
+Directory: ./reports/simulations /sim_1/synth/func/xsim/xsim.dir/ai_accelerator_tb_func_synth
+  xsim.crvsdump
+
+Directory: ./reports/simulations /sim_1/behav
+
+Directory: ./reports/simulations /sim_1/behav/xsim
+  tr_db.log
+  elaborate.sh
+  compile.log
+  ai_accelerator_tb_vlog.prj
+  simulate.sh
+  simulate.log
+  xsim.ini
+  xelab.pb
+  compile.sh
+  ai_accelerator_tb.tcl
+  elaborate.log
+  xvlog.pb
+  ai_accelerator_tb_behav.wdb
+  glbl.v
+  xvlog.log
+
+Directory: ./reports/simulations /sim_1/behav/xsim/xsim.dir
+
+Directory: ./reports/simulations /sim_1/behav/xsim/xsim.dir/xil_defaultlib
+  activation_function.sdb
+  weight_loader.sdb
+  ai_accelerator_if.sdb
+  ai_accelerator_tb.sdb
+  tb_ai_accelerator_top.sdb
+  image_preprocessing.sdb
+  performance_monitor.sdb
+  interrupt_controller.sdb
+  convolution_engine.sdb
+  fc_layer.sdb
+  ai_accelerator_top.sdb
+  pipeline_controller.sdb
+  dataflow_controller.sdb
+  xil_defaultlib.rlx
+  axi_dma_bridge.sdb
+  glbl.sdb
+  pooling_unit.sdb
+  clock_reset_manager.sdb
+  clock_gating_unit.sdb
+  $unit_activation_function_sv_2971209719.sdb
+
+Directory: ./reports/simulations /sim_1/behav/xsim/xsim.dir/ai_accelerator_tb_behav
+  xsim.type
+  Compile_Options.txt
+  TempBreakPointFile.txt
+  xsimSettings.ini
+  xsim.reloc
+  xsimkernel.log
+  xsim.crvsdump
+  xsim.dbg
+  xsim.rlx
+  xsim.mem
+  xsim.xdbg
+  xsim.svtype
+  xsimk
+  xsimcrash.log
+  xsim.rtti
+
+Directory: ./reports/simulations /sim_1/behav/xsim/xsim.dir/ai_accelerator_tb_behav/obj
+  xsim_13.lnx64.o
+  xsim_12.lnx64.o
+  xsim_19.lnx64.o
+  xsim_15.lnx64.o
+  xsim_9.lnx64.o
+  xsim_20.lnx64.o
+  xsim_8.lnx64.o
+  xsim_18.lnx64.o
+  xsim_5.lnx64.o
+  xsim_23.lnx64.o
+  xsim_0.lnx64.o
+  xsim_10.lnx64.o
+  xsim_24.lnx64.o
+  xsim_24.c
+  xsim_14.lnx64.o
+  xsim_17.lnx64.o
+  xsim_1.lnx64.o
+  xsim_11.lnx64.o
+  xsim_4.lnx64.o
+  xsim_2.lnx64.o
+  xsim_7.lnx64.o
+  xsim_22.lnx64.o
+  xsim_23.c
+  xsim_3.lnx64.o
+  xsim_16.lnx64.o
+  xsim_6.lnx64.o
+  xsim_21.lnx64.o
+
+Directory: ./schematic
+  schematic1.pdf
+  schematic.sch
+  schematic1.sch
+  schematic.pdf
+
+Directory: ./.git
+  FETCH_HEAD
+  config
+  description
+  HEAD
+  index
+
+Directory: ./.git/hooks
+  prepare-commit-msg.sample
+  pre-push.sample
+  pre-merge-commit.sample
+  pre-receive.sample
+  push-to-checkout.sample
+  update.sample
+  post-update.sample
+  applypatch-msg.sample
+  pre-applypatch.sample
+  pre-commit.sample
+  commit-msg.sample
+  pre-rebase.sample
+  sendemail-validate.sample
+  fsmonitor-watchman.sample
+
+Directory: ./.git/logs
+
+Directory: ./.git/logs/refs
+
+Directory: ./.git/logs/refs/remotes
+
+Directory: ./.git/logs/refs/remotes/origin
+  main
+
+Directory: ./.git/info
+  exclude
+
+Directory: ./.git/refs
+
+Directory: ./.git/refs/remotes
+
+Directory: ./.git/refs/remotes/origin
+  main
+
+Directory: ./.git/refs/tags
+
+Directory: ./.git/refs/heads
+
+Directory: ./.git/objects
+
+Directory: ./.git/objects/ef
+  b0b79113eea50bf8c0177bb0318cf3c2b1985d
+
+Directory: ./.git/objects/ee
+  71c7a7fc656943b0e0963abfc1b7382cb34619
+
+Directory: ./.git/objects/95
+  c5b66c199d9ddc824c4251dd539cf4fbf24351
+  73d592e41cfae65d9bf66101d9750ab920ba14
+
+Directory: ./.git/objects/08
+  adad816b47c579c1332bc30920f81bd37986cb
+  3065ebea7bb59fc0a92f6d9c6795e311951982
+  4f08987d117bfd9a947272a2f1ec4a0e0b3f43
+
+Directory: ./.git/objects/28
+  4b949d68b07626998ff858bf95f8fd88ce9c68
+
+Directory: ./.git/objects/e3
+  a3234428e25d87e270778f21733b7c14f09176
+  aafa67e244499d5323973fcfa64ddd91170729
+
+Directory: ./.git/objects/59
+  66799b628430ea5165c07b7f86f564d6f1ca3a
+  007124647457e92e67b113410f40015d767566
+
+Directory: ./.git/objects/4c
+  ddc820b7a1eb46c5c683ac53f2bc4fa35314d5
+
+Directory: ./.git/objects/0c
+  d55240324419026558d0bd5f4a1d65893a8cf1
+
+Directory: ./.git/objects/2e
+  f0ad98a84875ae2b5adb2c5ddc8ed8f9d7bd6a
+  d3070c2c0704ee7a0f4d053407744ae7ab87e5
+
+Directory: ./.git/objects/05
+  5f9eedb9a8875bd5d50c9a30e322445269ab58
+  659e0ed135d1fc6b2fd8aab0f04859293a1989
+
+Directory: ./.git/objects/77
+  3d66bef551fae57f05b6e7d10f5991cc308da0
+
+Directory: ./.git/objects/a0
+  045e53045d1ebcff1e7448f340fe845ef06830
+
+Directory: ./.git/objects/e4
+  95b8dc27962d8a390ac232fd4fe9a92dcdfd17
+  91f898692965035fadb12908ad3b4fcf4dcdee
+
+Directory: ./.git/objects/74
+  5d809c849c4090d43875a732118b73e7592b97
+  8fceb3165c33e29b1f1ce6325c6720f2c297fb
+  5c414c33ea9bd24b2410c3062dd0cdd31a88f2
+
+Directory: ./.git/objects/83
+  fb953018f9e9ea2074759beaef874770cb5579
+
+Directory: ./.git/objects/ac
+  33b980e7474e1b2c24851172b3d02bca4788f4
+
+Directory: ./.git/objects/f3
+  8fb9761833361c411b30b37d1d2501d7904863
+  ec45f2ab8380cce2db2e356ec0427ef6828dfb
+  72bcaa0251fe33f6b643cd5473e77eb688687f
+
+Directory: ./.git/objects/ce
+  7053f698ada04840d7cd344654d03b640ebd0e
+  b049e5e5af4691d817bb11f2716b644df73b1e
+  835d59b49e5f3366161f16a376b84cfcb645be
+
+Directory: ./.git/objects/a7
+  6099e620aac0c44afb89c16a7ae1eb2320b365
+
+Directory: ./.git/objects/fe
+  57585dfa8c5e4cfb92a744be37a61398de7d63
+
+Directory: ./.git/objects/a8
+  66673aa3807c100fea900b5c3403fc00fa7762
+
+Directory: ./.git/objects/f1
+  829f8a13215af68287e30fc0ad567fcbd808fb
+
+Directory: ./.git/objects/ea
+  02cf77c59aed43f9e26917d44e7ddd0fa4dc9c
+  84f53ea2ca68b5ba60fb7ae2c5d8fa454fff37
+
+Directory: ./.git/objects/34
+  f23b39738a1f8edf4837c83fc3936c1d57f1da
+
+Directory: ./.git/objects/b1
+  2810d7853c6bc7f55c5ca23a4d8e54b2eb426d
+
+Directory: ./.git/objects/43
+  e81cafa1a613c9abd48ec377132323c9fc78cb
+
+Directory: ./.git/objects/ed
+  3b249ceef65a0d1b42790def9ee8179363679c
+
+Directory: ./.git/objects/dc
+  fede1e16ecd1ea1ec2b9da54fcbf0ef11a220c
+
+Directory: ./.git/objects/96
+  682087a69c80a5568af0f60d545d9f268c5f07
+
+Directory: ./.git/objects/71
+  8d4719b77d5ea3faac7977ed2122e829d2ab5c
+
+Directory: ./.git/objects/7d
+  0e412829be0e02c0bfd567a7d56caea51d5dbf
+
+Directory: ./.git/objects/63
+  dae756692eae928efff522a3df8fe96a9db1bc
+
+Directory: ./.git/objects/b5
+  180e31039f8cc0b042aa22a9133b1d48d1318f
+
+Directory: ./.git/objects/f2
+  b6c15d1dfc565406e9833241608b6d3ebdc968
+  42ce77be5cd3ee02590930c3003093fe9b657b
+
+Directory: ./.git/objects/d4
+  93b48bbc5ff267bb7fdf63f3ce8ebbb733f8bd
+
+Directory: ./.git/objects/c5
+  60e8fc546e68d1a9246e1e78d967dd90640e73
+  4a83f8b082595696b3399677acab76ba0cac9e
+
+Directory: ./.git/objects/21
+  dd7b553ccfa3ded08c9fe43eb5a8132f9b51ff
+
+Directory: ./.git/objects/e9
+  b8e40a011f9d5374392021684e10e48bdde523
+
+Directory: ./.git/objects/0a
+  d2abb70893610bed10c5cb3e0b5f2b7969d930
+
+Directory: ./.git/objects/32
+  4fcc49689ac05b6e064933b6f776eb8d7b7f75
+
+Directory: ./.git/objects/24
+  c439ec7b9ff58de19086f47627ffccfe2f593c
+
+Directory: ./.git/objects/info
+
+Directory: ./.git/objects/72
+  fd9e2181c8f3f8d21e89c47548e7799a2bbc15
+
+Directory: ./.git/objects/66
+  e7fc8cf4026aa3655707bcdc3ec2a3799cd1bf
+
+Directory: ./.git/objects/a4
+  938646fdb036b946a849e2fdfd34e5cd4dd921
+  a6939177832fd62e5b85aa8e7c40b32f9f3941
+
+Directory: ./.git/objects/41
+  656251fcbae2dcb46bc1f9e79a575778e4a64b
+
+Directory: ./.git/objects/de
+  b25f1a81d3e77ca24624c369e795c79609c9bd
+
+Directory: ./.git/objects/4f
+  38a4b66520d9894f55216ab553402e47488bab
+
+Directory: ./.git/objects/85
+  2b50cc1691fc838bb8887d7b7ec8361f0252aa
+
+Directory: ./.git/objects/fc
+  b88b6f77d7234be31c21b9d4ae083e49d402c3
+
+Directory: ./.git/objects/65
+  60900c867bde0b2ced6ad241b6f0b55a135a37
+
+Directory: ./.git/objects/40
+  ce7b50040e854ddeb61ff744bb5536a777e284
+
+Directory: ./.git/objects/68
+  bfbd070ca787472cad93a8c98bb9bbb0998743
+
+Directory: ./.git/objects/76
+  798baea14cb48a362df290a8135100acfb5296
+
+Directory: ./.git/objects/07
+  39f07846d0d6578861a36e019ff12f43a797af
+
+Directory: ./.git/objects/04
+  1f390703deefb276a757884bbdb4d33c08d786
+  040cb8bf29af2615a762522ae3aa7cfbf125bc
+
+Directory: ./.git/objects/e1
+  7f873305bb124c08a9749151618271faaa1525
+
+Directory: ./.git/objects/2a
+  65bc4e324832c5cbd38db89a92b758c9dc77fb
+
+Directory: ./.git/objects/b4
+  c0c056b9b11c5240c7711c643a22b484d96ea5
+
+Directory: ./.git/objects/ae
+  7f8982eb928b04cf33be5849c4cf1120e83993
+
+Directory: ./.git/objects/10
+  94e45dcf2527b60296acfc006fb85a3e752cba
+
+Directory: ./.git/objects/14
+  a09a21be380ea00ada81606e1595c3a4e4d8f5
+  62988ff0386115f4b81a21d2e8f10e9211323d
+
+Directory: ./.git/objects/da
+  1b7af88f485ec4fb2edd50f4cb25920353ef72
+
+Directory: ./.git/objects/fd
+  bc612e3497473d6b58c7f0c1432b55416f6136
+
+Directory: ./.git/objects/15
+  852aad960e249d2e5433c219341eb60ab055dc
+  9874eb9733cc2586cd5e981ecaaeb972f2f6ab
+  b48e42dd4ab778e282d893cee381973b3bb192
+
+Directory: ./.git/objects/8f
+  448d461b601992614f31394d3479ef69116a9a
+  d4791fa1e86bbe831db8274d336b6eb9a9d63a
+
+Directory: ./.git/objects/5f
+  537eacb473851a5769d7cbfe115938778ce296
+
+Directory: ./.git/objects/0d
+  46da2d9315e16ce275be6c726220a6dbafed7b
+
+Directory: ./.git/objects/6d
+  b7974e34238db21d74fd76361ddce66e62084f
+
+Directory: ./.git/objects/f6
+  d014d0462c93cf3ed3a26d55522f46e221e495
+  b11e8717b3fede34f4b3eb4825eeb5b7153cd0
+  baada02f5597b0cfe43c1eae689a8171bfc1bf
+
+Directory: ./.git/objects/e8
+  57c9a5e54e22885b43029fc80206628fdd117b
+
+Directory: ./.git/objects/37
+  1bdcaa541c8bc073b02098c4366a6b7919014d
+
+Directory: ./.git/objects/b3
+  f1d1378832016a0976f9d5f42f2f794842b18c
+
+Directory: ./.git/objects/38
+  f1e7841bd3fa43e87ce6806529bc2de966d3ab
+
+Directory: ./.git/objects/8b
+  ec3f8933d2022531d4515beb14e3a4ed03fa9b
+
+Directory: ./.git/objects/8d
+  f9e67dac7926e4fb21a13d78672102c0deb4ef
+
+Directory: ./.git/objects/3c
+  2a6dd8e92cf47c360b5d0de64be01250cc9b93
+
+Directory: ./.git/objects/c9
+  8443df2d1ee2ffc287e9a6118ad4645637f042
+  4860f83690d878a6197f0c38c06b5ae25dce0d
+
+Directory: ./.git/objects/26
+  d7f7d3101931678c054180ad5fe13cdc903f90
+
+Directory: ./.git/objects/69
+  92e0ca814a51d81ebfc7cfce997ad6823bbbb8
+  8c7bddb38f26d404663174b06481ff760f4dd8
+
+Directory: ./.git/objects/b6
+  bb002723b579c7f11ebb9edc5ff7677c427d59
+
+Directory: ./.git/objects/52
+  a52401976ab9855fc65b7b6947d0eff321c4f5
+
+Directory: ./.git/objects/b0
+  8545b40d08b65fdd3b1bb231bc01aaed49f16b
+
+Directory: ./.git/objects/c7
+  f9bb4430dc29ba41f38c5f931e09e501b4d8bc
+
+Directory: ./.git/objects/82
+  27572cf82f92daeba9f0ea0aa5d7facc7a30a1
+
+Directory: ./.git/objects/5c
+  a9d36ee92d0e840cd38e93fb33dca74e8051a0
+
+Directory: ./.git/objects/9d
+  ee9f5f56b3c0c9acd715d3b07735442757ef15
+
+Directory: ./.git/objects/89
+  227a6740184bf82ddcb7cdb54e61a0f70557cd
+
+Directory: ./.git/objects/97
+  3ac49435f9db4b137491e0ee894f9a288a5800
+
+Directory: ./.git/objects/6f
+  30299e5665431e64e08e8aa049a0aa61a7d6e2
+
+Directory: ./.git/objects/ad
+  b7798a304bb5eaf8730781fcc26eec0a178902
+
+Directory: ./.git/objects/55
+  71e1a1492127325e23f72055dbb344ab569b57
+
+Directory: ./.git/objects/bd
+  09244efed7d8b05b4f06bd841a658b4f01171e
+
+Directory: ./.git/objects/4e
+  faaaac7668d06801c13d5b5f5d75294bdaea5f
+
+Directory: ./.git/objects/09
+  7794127b642999e26fb6c3c206e6cfa6347421
+
+Directory: ./.git/objects/e7
+  cbca2f8ced95387559b93964a04afb02272447
+  10ea208fdf575da0bdd6ce6d2caf03815c870f
+
+Directory: ./.git/objects/8a
+  b3400aefee6461199dbafdffa821005080d567
+  86665673977739031e73877a365b50b4c3c610
+
+Directory: ./.git/objects/54
+  532f9cfb7f7a680ca0e7634e5e7b78a468905a
+
+Directory: ./.git/objects/6c
+  8254fc82297f656ff8f17ae26ce51573c319b5
+
+Directory: ./.git/objects/a1
+  7c2cf1fe37bc8e8483b9573d3b9bdf76c8fa42
+
+Directory: ./.git/objects/3e
+  f64adc1b2436b1bafb9adc6af8ed94cf564cbb
+
+Directory: ./.git/objects/pack
+  pack-30e8f79da87bcf34cf04b0d6e550a6a735319486.idx
+  pack-b2b15d8e34fd929a2ab72310288518372c9d6ff3.pack
+  pack-b2b15d8e34fd929a2ab72310288518372c9d6ff3.idx
+  pack-b2b15d8e34fd929a2ab72310288518372c9d6ff3.rev
+  pack-30e8f79da87bcf34cf04b0d6e550a6a735319486.pack
+
+Directory: ./.git/objects/e5
+  008e8c19fc0099d89d3585ca7f8bf6fd8261f0
+
+Directory: ./.git/objects/02
+  452a7060f7f394d3fe60b758fdc31f1dd492d1
+  37f4b016c8284f2b1314ee6c4ecb42d3b74078
+  a276a6b65f43203d171f912e3a5c18c913faa4
+
+Directory: ./.git/objects/1c
+  38043f3cf98cec272c9ed0a8a3295fc0e51471
+  6fb4d658effb43a19e93b3993dce466c19afc5
+
+Directory: ./.git/objects/53
+  cde32ea6180489906e654452b7c8516f9f569c
+
+Directory: ./.git/branches
+
+Directory: ./synthesis
+  synth_script.tcl
+
+Directory: ./.cxl
+
+Directory: ./.cxl/Acc_1
+  .cxl.xsim.version
+
+Directory: ./tb py
+  test_convolution_engine.py
+  test_pooling_unit.py
+  test_config_registers.py
+  test_fc_layer.py
+  test_activation_function.py
+  test_image_preprocessing.py
+  test_interrupt_controller.py
+  test_axi_dma_bridge.py
+  test_dataflow_controller.py
+
+Directory: ./verilator_build
+  sim_main.cpp
+
+Directory: ./tb sv
+  tb_pooling_unit.sv
+  tb_config_registers.sv
+  tb_performance_monitor.sv
+  tb_dataflow_controller.sv
+  tb_image_preprocessing.sv
+  tb_convolution_engine.sv
+  tb_activation_function.sv
+  tb_ai_accelerator_top.sv
+  tb_interrupt_controller.sv
+  tb_axi_dma.sv
+  tb_weight_loader.sv
+  tb_fc_layer.sv
+
