@@ -1,8 +1,0 @@
-0.7
-2020.2
-May 21 2025
-22:59:56
-/home/yashwanth/Acc_1/Acc_1.sim/sim_1/synth/func/xsim/ai_accelerator_tb_func_synth.vhd,1752837564,vhdl,,,,activation_function;ai_accelerator_top;axi_dma_bridge;clock_gating_unit;clock_reset_manager;convolution_engine;dataflow_controller;fc_layer;image_preprocessing;interrupt_controller;performance_monitor;pipeline_controller;pooling_unit;weight_loader,,,,,,,,
-/home/yashwanth/Acc_1/Acc_1.sim/sim_1/synth/func/xsim/glbl.v,1741209010,verilog,,,,glbl,,uvm,,,,,,
-/home/yashwanth/Downloads/AI_ACCELERATOR--main/tb sv/tb_ai_accelerator_top.sv,1752664070,systemVerilog,,,/tools/Xilinx/2025.1/data/xsim/system_verilog/uvm_include/uvm_macros.svh,$unit_tb_ai_accelerator_top_sv;ai_accelerator_if;ai_accelerator_tb,,uvm,../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
-/tools/Xilinx/2025.1/data/xsim/system_verilog/uvm_include/uvm_macros.svh,1747891607,verilog,,,,,,,,,,,,
